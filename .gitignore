@@ -3,7 +3,10 @@
 .project
 /.settings/
 /src/*
-!/src/*/
+!/src/DataTypes/
+!/src/mathmetod/
+!/src/string/
+!/src/varaiblesandconstant/
 
 
 # Built application files
