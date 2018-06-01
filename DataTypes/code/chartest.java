@@ -1,4 +1,4 @@
-package DataTypes;
+package code;
 
 public class chartest {
 

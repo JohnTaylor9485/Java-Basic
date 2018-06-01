@@ -1,4 +1,4 @@
-package string;
+package code;
 
 public class StringTest {
 
@@ -6,7 +6,7 @@ public class StringTest {
 		// TODO Auto-generated method stub
    String s="hello";
    String ss=s.substring(0,2);
-   String band=String.join("/", s,ss,"test");
+   String band=String.join("/", s,ss,"test");//用第一个参数作为连接符连接后面的参数
    System.out.println(band);
    
    String a="";

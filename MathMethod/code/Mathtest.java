@@ -1,4 +1,4 @@
-package mathmethod;
+package code;
 
 public class Mathtest {
 

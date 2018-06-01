@@ -1,4 +1,4 @@
-package varaiblesandconstant;
+package code;
 
 
 public class finaltest {
