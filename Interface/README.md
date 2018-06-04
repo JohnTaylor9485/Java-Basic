@@ -20,3 +20,20 @@
 >+ 确定默认的克隆是否满足要求
 >+ 是否可以在可变的子对象上调用clone来修补默认的clone方法
 >+ 是否不该使用clone
+
+##ArrayList的一个remove方法
+>+ list.removeIf(e ->e==null)
+
+##lambda表达式
+>+ object::instanceMethod System.out::println == x-> System.out.println(x)
+>+ Class::staticMethod Math::pow == (x,y)->Math.pow(x,y)
+>+ Class::instanceMethod String::compareToIgnoreCase == (x,y)->x.compareToIgnoreCase(y)
+>+ lambda表达式中捕获的变量必须实际上是最终变量
+>+ lambda表达式中不能有同名的局部变量
+
+> lambda的重点是延迟执行，情况如下，除此之外并不需要
+>>+ 在一个单独的线程中执行代码
+>>+ 多次运行代码
+>>+ 在算法适当位置运行
+>>+ 发生某种情况时执行代码
+>>+ 只有在必要时运行代码
