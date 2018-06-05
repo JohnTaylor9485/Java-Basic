@@ -39,6 +39,7 @@
     + boolean isSynchronized(int modifiers)
     + boolean isVolatile(int modifiers)
 >>>
+
 >>+ String getName(); 返回一个描述构造器，方法或域名的字符串
 >>+ Class[] getParameterTypes(); 返回描述参数类型的Class对象数组
 >>+ Class getReturnType() 返回描述返回类型的Class对象
