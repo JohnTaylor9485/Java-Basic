@@ -25,6 +25,7 @@
 >>+ Class getDeclaringClass();返回一个用于描述类中定义的构造器、方法或域的Class对象
 >>+ Class[] getExpectionzTypes() 返回一个描述方法抛出的异常类型的Class对象数组
 >>+ int getModifiers() 返回一个描述构造器，方法或域的修饰符整数
+
     + String toString(int modifiers)
     + boolean isAbstract(int modifiers)   
     + boolean isFinal(int modifiers)
