@@ -14,9 +14,9 @@
 >>+ 用二分法在范围内查找v,没有则返回负值，-r-1是v插入后可以使a保持有序的位置
 
 ##交换数组元素
-'''
+```java
 double temp=double[i];
 double[i]=double[i+1];
 double[i+1]=temp;
-'''
+```
 

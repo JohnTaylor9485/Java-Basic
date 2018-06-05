@@ -13,9 +13,18 @@
 >两个包装器对象比较时使用equals
 
 >在一个表达式里混合使用Integer 和Double，Integer会自动拆箱提升为double再装箱为double。
+ 
+##继承设计原则
+> 公共操作和域放在超类
+> 不要使用protected
+> 使用继承实现“is-a”关系
+> 除非所有继承的方法都有意义，不要使用继承
+> 覆盖方法时，不要改变预期的行为
+> 使用多态，而非类型信息
+> 不要过多的使用反射
 
 ##参数数量可变的方法
-'''
+```
  public Static int findmax(int... max){
  
  int max=10;
@@ -28,4 +37,6 @@
  
  return max;
  }
- '''
+ ```
+
+ 

@@ -48,11 +48,11 @@ public class ReflectionTest {
     for (Field f : fields) {
       Class type = f.getType();
       String name = f.getName();
-      System.out.print("  ");
+      System.out.print("--");
       String modifier = Modifier.toString(f.getModifiers());
       if (modifier.length() > 0)
-        System.out.print(modifier + " ");
-      System.out.print(type.getName() + " " + ";");
+        System.out.print(modifier + "*");
+      System.out.print(type.getName() + " " +name+ ";");
     }
   }
 
