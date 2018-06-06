@@ -12,5 +12,4 @@ public class StaticInnerClassTest {
      System.out.println("max =" + p.getSecnd());
    }
   }
-
 }
